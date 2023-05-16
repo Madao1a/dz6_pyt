@@ -9,3 +9,12 @@ def list_create(n,m,l):
         list1.append(sum)
         sum += m
     return list1
+
+def min_max(m, n, list_2):
+    list3 = []
+    for i in range(len(list_2)):
+        if n <= list_2[i] <= m:
+            list3.append(i)
+    return list3
+
+
